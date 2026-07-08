@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Models (large files)
+models/
+
+# Data
+data/raw/
+data/processed/
+*.parquet
+*.arrow
+
+# Notebook outputs
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# HF cache
+.cache/
+
+# Logs
+*.log
+wandb/
+
+# Unsloth compilation cache
+unsloth_compiled_cache/
